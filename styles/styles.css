@@ -17,5 +17,52 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header_title{
+    font-size: 48px;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.2px;
+    color: var(--primary-color);
     padding: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.links .nav_link{
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links .nav_link:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.language_selector{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.language_selector .language_container{
+    font-size: 18px;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.language_text{
+    font-size: 14px;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
